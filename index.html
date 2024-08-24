@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<div class="container">
+
+<!-- ======= SIDEAR ====== -->
+    <aside>
+        <div class="top">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="close" id="close-btn">
+                <span class="material-symbols-outlined">close</span>
+            </div>            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">space_dashboard</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="">
+                    <span class="material-symbols-outlined">groups</span>
+                    <h3>Movies</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined"><span class="material-symbols-outlined">
+                        checklist
+                        </span></span>
+                    <h3>PlaylIsts</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">monitoring</span>
+                    <h3>Popular</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">chat</span>
+                    <h3>Favorites</h3>
+                    <span class="message-count">0</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">inventory_2</span>
+                    <h3>Library</h3>
+                </a>
+               
+                <a href="#">
+                    <span class="material-symbols-outlined">tune</span>
+                    <h3>Add Movie</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">library_add</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Loge out</h3>
+                </a>
+        </div>
+    </aside>
+   
+        <!-- Main Content -->
+         
+        <div class="main-content">
+            <header class="header">
+                <button id="toggleSidebar" class="toggle-btn">&#9776;</button>
+                <div class="search-bar">
+                    <input type="text" placeholder=" 🔍 Search...">
+                </div>
+                <div class="user-profile">
+                    <img src="img/th.jpg" alt="User Profile">
+                </div>
+            </header><br>
+            <h1 style="color: rgb(230, 3, 3);text-align: center;">Add Your Movie</h1><br>
+
+            <section class="content">
+                <div class="cards">
+                    <div class="card">
+                        <h3>Frozen</h3>
+                        <p>20/7/2023</p>
+                        <img src="img/img4.jpg" alt="Sales">
+                    </div>
+                    <div class="card">
+                        <h3>Ratatoures</h3>
+                        <p>20/7/2023</p>
+                        <img src="img/img8.jpg" alt="Users">
+                    </div>
+                    <div class="card">
+                        <h3>Brave</h3>
+                        <p>20,000</p>
+                        <img src="img/img10.jpg" alt="Visitors">
+                    </div>
+                    <div class="card">
+                        <h3>Harry Potter</h3>
+                        <p>20/7/2023</p>
+                        <img src="img/p11.jpeg" alt="Revenue">
+                    </div>
+                </div>
+                <h1 style="color: rgb(230, 3, 3);text-align: center;font-size: 25px;">About aour movies</h1><br>
+                <div class="charts">
+                    
+                    <div class="chart" id="chart1">
+                        <h3>About Aour Movie 📽</h3>
+                        <img src="img/p10.jpg" alt="Chart">
+                    </div>
+                    <div class="chart" id="chart2">
+                        <h3>User Growth</h3>
+                        <img src="img/p10.jpg" alt="Chart">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
